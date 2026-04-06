@@ -1,0 +1,47 @@
+name: Compress zip, calculate SHA-1 and publish to Tag
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Compress into zip
+        run: zip -r resource.zip assets/* license.md pack.mcmeta pack.png
+
+      - name: Calculate SHA1
+        id: calculate_sha1
+        run: echo "RESOURCE_SHA1=$(sha1sum resource.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
+
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.run_number }}
+          release_name: 版本 ${{ github.run_number }}
+          draft: false
+          prerelease: false
+          body: ${{ steps.calculate_sha1.outputs.RESOURCE_SHA1 }}
+
+      - name: Upload zip
+        id: upload_zip
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./resource.zip
+          asset_name: resource.zip
+          asset_content_type: application/zip
