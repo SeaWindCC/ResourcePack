@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "ascent": -2,
+      "height": 3,
+      "chars": ["\uE000"],
+      "file": "minecraft:font/tiles/empty.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": -2,
+      "height": 3,
+      "chars": [
+        "ŷ"
+      ],
+      "file": "minecraft:font/tiles/ffffff.png"
+    }
+  ]
+}

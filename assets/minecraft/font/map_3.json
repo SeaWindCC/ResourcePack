@@ -1,0 +1,23 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "ascent": -5,
+            "height": 3,
+            "chars": ["█"],
+            "file": "minecraft:font/map.png"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:space"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:button"
+        },
+        {
+            "type": "reference",
+            "id": "minecraft:map/3"
+        }
+    ]
+}
