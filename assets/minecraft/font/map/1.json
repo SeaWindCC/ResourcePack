@@ -11,6 +11,48 @@
       "type": "bitmap",
       "ascent": 1,
       "height": 3,
+      "chars": ["\uE001"],
+      "file": "minecraft:font/tiles/empty_2.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": ["\uE002"],
+      "file": "minecraft:font/tiles/empty_4.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": ["\uE003"],
+      "file": "minecraft:font/tiles/empty_8.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": ["\uE004"],
+      "file": "minecraft:font/tiles/empty_16.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": ["\uE005"],
+      "file": "minecraft:font/tiles/empty_32.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": ["\uE006"],
+      "file": "minecraft:font/tiles/empty_64.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
       "chars": [
         "ŷ"
       ],
