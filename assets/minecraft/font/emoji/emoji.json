@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:emoji/warning.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE001"]
+        }
+    ]
+}

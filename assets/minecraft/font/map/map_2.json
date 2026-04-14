@@ -2,22 +2,22 @@
     "providers": [
         {
             "type": "bitmap",
-            "ascent": -5,
+            "ascent": -2,
             "height": 3,
             "chars": ["█"],
-            "file": "minecraft:font/map.png"
+            "file": "minecraft:gui/map.png"
         },
         {
             "type": "reference",
-            "id": "minecraft:space"
+            "id": "minecraft:space/space"
         },
         {
             "type": "reference",
-            "id": "minecraft:button"
+            "id": "minecraft:button/button"
         },
         {
             "type": "reference",
-            "id": "minecraft:map/3"
+            "id": "minecraft:map/2"
         }
     ]
 }

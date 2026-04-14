@@ -5,28 +5,28 @@
             "height": 18,
             "ascent": 9,
             "chars": ["*"],
-            "file": "minecraft:font/button.png"
+            "file": "minecraft:gui/button.png"
         },
         {
             "type": "bitmap",
             "height": 18,
             "ascent": 12,
             "chars": [">"],
-            "file": "minecraft:font/ui/right.png"
+            "file": "minecraft:gui/right.png"
         },
         {
             "type": "bitmap",
             "height": 18,
             "ascent": 12,
             "chars": ["<"],
-            "file": "minecraft:font/ui/left.png"
+            "file": "minecraft:gui/left.png"
         },
         {
             "type": "bitmap",
             "height": 18,
             "ascent": 12,
             "chars": ["["],
-            "file": "minecraft:font/ui/left_disable.png"
+            "file": "minecraft:gui/left_disable.png"
         }
     ]
 }

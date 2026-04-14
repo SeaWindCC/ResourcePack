@@ -14,39 +14,39 @@
                 "\ufe30\ufe31\ufe32\ufe33\ufe34\ufe35\ufe36\ufe37",
                 "\ufe40\ufe41\ufe42\ufe43\ufe44\ufe45\ufe46\ufe47"
             ],
-            "file": "minecraft:font/dec/sprites.png"
+            "file": "minecraft:image/sprites.png"
         },
         {
             "type": "bitmap",
             "height": 12,
             "ascent": 12,
             "chars": ["n"],
-            "file": "minecraft:font/player/n.png"
+            "file": "minecraft:player/n.png"
         },
         {
             "type": "bitmap",
             "height": 12,
             "ascent": 12,
             "chars": ["s"],
-            "file": "minecraft:font/player/s.png"
+            "file": "minecraft:player/s.png"
         },
         {
             "type": "bitmap",
             "height": 12,
             "ascent": 12,
             "chars": ["e"],
-            "file": "minecraft:font/player/e.png"
+            "file": "minecraft:player/e.png"
         },
         {
             "type": "bitmap",
             "height": 12,
             "ascent": 12,
             "chars": ["w"],
-            "file": "minecraft:font/player/w.png"
+            "file": "minecraft:player/w.png"
         },
         {
             "type": "reference",
-            "id": "minecraft:space"
+            "id": "minecraft:space/space"
         },
         {
             "type": "reference",

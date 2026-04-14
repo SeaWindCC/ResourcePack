@@ -5,49 +5,49 @@
       "ascent": -5,
       "height": 3,
       "chars": ["\uE000"],
-      "file": "minecraft:font/tiles/empty.png"
+      "file": "minecraft:tiles/empty.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE001"],
-      "file": "minecraft:font/tiles/empty_2.png"
+      "file": "minecraft:tiles/empty_2.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE002"],
-      "file": "minecraft:font/tiles/empty_4.png"
+      "file": "minecraft:tiles/empty_4.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE003"],
-      "file": "minecraft:font/tiles/empty_8.png"
+      "file": "minecraft:tiles/empty_8.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE004"],
-      "file": "minecraft:font/tiles/empty_16.png"
+      "file": "minecraft:tiles/empty_16.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE005"],
-      "file": "minecraft:font/tiles/empty_32.png"
+      "file": "minecraft:tiles/empty_32.png"
     },
     {
       "type": "bitmap",
       "ascent": -5,
       "height": 3,
       "chars": ["\uE006"],
-      "file": "minecraft:font/tiles/empty_64.png"
+      "file": "minecraft:tiles/empty_64.png"
     },
     {
       "type": "bitmap",
@@ -56,7 +56,7 @@
       "chars": [
         "ŷ"
       ],
-      "file": "minecraft:font/tiles/ffffff.png"
+      "file": "minecraft:tiles/ffffff.png"
     }
   ]
 }
